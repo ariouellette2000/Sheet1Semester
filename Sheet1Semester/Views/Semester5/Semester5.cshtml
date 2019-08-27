@@ -7,23 +7,22 @@
 </header>
 <body>
     <h2>Semester5</h2>
-    @Html.ActionLink("Home", "Index", "Default")
-    <br />
-    @Html.ActionLink("Semester 5", "Semester5", "Semester5")
-    <br />
-    @Html.ActionLink("Testimonial", "Testimonial", "Testimonial")
-    <hr />
-    <h4>List of courses</h4>
-    <ul>
-        <li>Final Project</li>
-        <li>Mobile Application</li>
-        <li>Career Planning</li>
-        <li>Database System</li>
-        <li>Windows and Web Application</li>
-        <li>Software Testing</li>
+    <ul class="ulnav">
+        <li class="linav">@Html.ActionLink("Home", "Index", "Default")</li>
+        <li class="linav">@Html.ActionLink("Semester 5", "Semester5", "Semester5")</li>
+        <li class="linav">@Html.ActionLink("Testimonial", "Testimonial", "Testimonial")</li>
     </ul>
+    <br /><br />
+    <h3><u>List of courses</u></h3>
+        <ul class="definitionprog">
+            <li class="courseslist">Final Project</li>
+            <li class="courseslist">Mobile Application</li>
+            <li class="courseslist">Career Planning</li>
+            <li class="courseslist">Database System</li>
+            <li class="courseslist">Windows and Web Application</li>
+            <li class="courseslist">Software Testing</li>
+        </ul>
 </body>
 <footer>
-    <p class="creator">Created by Ariane</p>
 </footer>
 
