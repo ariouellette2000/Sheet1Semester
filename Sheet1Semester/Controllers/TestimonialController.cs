@@ -13,9 +13,6 @@ namespace Sheet1Semester.Controllers
         {
             return View();
         }
-        public ActionResult Testamonial()
-        {
-            return View();
-        }
+   
     }
 }
