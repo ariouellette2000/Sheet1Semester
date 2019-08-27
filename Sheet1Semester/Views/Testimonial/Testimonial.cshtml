@@ -2,11 +2,19 @@
 @{
     ViewBag.Title = "Testimonial";
 }
-
-<h2>Testimonial</h2>
-
-@Html.ActionLink("Home", "Index", "Default")
-<br />
-@Html.ActionLink("Semester 5", "Semester5", "Semester5")
-<hr/>
-<h4> Here is a few words from Champlain's students</h4>
+<header>
+    <link href="~/Content/StyleSheet1.css" rel="stylesheet" />
+</header>
+<body>
+    <h2>Testimonial</h2>
+    @Html.ActionLink("Home", "Index", "Default")
+    <br />
+    @Html.ActionLink("Semester 5", "Semester5", "Semester5")
+    <br />
+    @Html.ActionLink("Testimonial", "Testimonial", "Testimonial")
+    <hr />
+    <h4> Here is a few words from Champlain's students</h4>
+</body>
+<footer>
+    <p class="creator">Created by Ariane</p>
+</footer>

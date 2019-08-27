@@ -2,21 +2,28 @@
 @{
     ViewBag.Title = "Semester5";
 }
-
-<h2>Semester5</h2>
-
-
-@Html.ActionLink("Home", "Index", "Default")
-<br />
-@Html.ActionLink("Testimonial", "Testimonial", "Testimonial")
-<hr/>
-<h4>List of courses</h4>
-<ul>
-    <li>Final Project</li>
-    <li>Mobile Application</li>
-    <li>Career Planning</li>
-    <li>Database System</li>
-    <li>Windows and Web Application</li>
-    <li>Software Testing</li>
-</ul>
+<header>
+    <link href="~/Content/StyleSheet1.css" rel="stylesheet" />
+</header>
+<body>
+    <h2>Semester5</h2>
+    @Html.ActionLink("Home", "Index", "Default")
+    <br />
+    @Html.ActionLink("Semester 5", "Semester5", "Semester5")
+    <br />
+    @Html.ActionLink("Testimonial", "Testimonial", "Testimonial")
+    <hr />
+    <h4>List of courses</h4>
+    <ul>
+        <li>Final Project</li>
+        <li>Mobile Application</li>
+        <li>Career Planning</li>
+        <li>Database System</li>
+        <li>Windows and Web Application</li>
+        <li>Software Testing</li>
+    </ul>
+</body>
+<footer>
+    <p class="creator">Created by Ariane</p>
+</footer>
 
